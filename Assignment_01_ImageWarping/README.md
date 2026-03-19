@@ -45,27 +45,31 @@ In `run_point_transform.py`, I implemented:
 - backward warping from target pixels to source pixels
 - bilinear interpolation for smooth deformation results
 
+### MLS Algorithm Overview
+
+Moving Least Squares (MLS) is a point-guided deformation method that builds a local transformation for each output pixel. For a pixel in the target image, the algorithm first measures its distances to all target control points and assigns larger weights to nearby points. It then computes weighted centroids of the target points and source points, estimates a local affine transform between the two centered point sets, and maps the pixel back to the source image. Because the transformation is computed locally and weighted by distance, pixels near edited control points deform more strongly, while far regions remain smooth and natural.
+
 ## Results
 
 ### Basic Transformation
 
 `global_1.png` shows image scaling and rotation.
 
-<img src="run_script/global_1.png" alt="global transform scale and rotation" width="800">
+![global transform scale and rotation](run_script/global_1.png)
 
 `global_2.png` shows image translation.
 
-<img src="run_script/global_2.png" alt="global transform translation" width="800">
+![global transform translation](run_script/global_2.png)
 
 ### Point Guided Deformation
 
 `point_1.png` shows the eyes moved outward and downward.
 
-<img src="run_script/point_1.png" alt="point guided deformation eyes" width="800">
+![point guided deformation eyes](run_script/point_1.png)
 
 `point_2.png` shows the mouth corners lifted upward.
 
-<img src="run_script/point_2.png" alt="point guided deformation smile" width="800">
+![point guided deformation smile](run_script/point_2.png)
 
 ## Conclusion
 
