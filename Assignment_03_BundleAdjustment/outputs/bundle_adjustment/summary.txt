@@ -1,0 +1,5 @@
+Optimization steps: 4000
+Estimated focal length: 900.0823
+Mean reprojection error: 0.0897 px
+Median reprojection error: 0.0615 px
+Final total loss: 0.089785
