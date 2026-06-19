@@ -1,0 +1,8 @@
+
+Scene: ../Assignment_04_3DGS/data/chair/official_3dgs
+Method: ours_7000
+Metric evaluation progress:   0%|          | 0/13 [00:00<?, ?it/s]Metric evaluation progress:   8%|▊         | 1/13 [00:01<00:23,  1.94s/it]Metric evaluation progress:  15%|█▌        | 2/13 [00:03<00:16,  1.48s/it]Metric evaluation progress:  23%|██▎       | 3/13 [00:04<00:13,  1.31s/it]Metric evaluation progress:  31%|███       | 4/13 [00:05<00:10,  1.22s/it]Metric evaluation progress:  38%|███▊      | 5/13 [00:06<00:09,  1.18s/it]Metric evaluation progress:  46%|████▌     | 6/13 [00:07<00:08,  1.15s/it]Metric evaluation progress:  54%|█████▍    | 7/13 [00:08<00:06,  1.13s/it]Metric evaluation progress:  62%|██████▏   | 8/13 [00:09<00:05,  1.11s/it]Metric evaluation progress:  69%|██████▉   | 9/13 [00:10<00:04,  1.11s/it]Metric evaluation progress:  77%|███████▋  | 10/13 [00:11<00:03,  1.10s/it]Metric evaluation progress:  85%|████████▍ | 11/13 [00:12<00:02,  1.10s/it]Metric evaluation progress:  92%|█████████▏| 12/13 [00:13<00:01,  1.09s/it]Metric evaluation progress: 100%|██████████| 13/13 [00:15<00:00,  1.09s/it]Metric evaluation progress: 100%|██████████| 13/13 [00:15<00:00,  1.16s/it]
+  SSIM :    0.1815211
+  PSNR :    2.3807092
+  LPIPS:    0.4470841
+

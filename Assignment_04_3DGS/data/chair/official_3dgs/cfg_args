@@ -1,0 +1,1 @@
+Namespace(sh_degree=3, source_path='/home/zheng/zheng/dip/3dgs/Assignment_04_3DGS/data/chair', model_path='../Assignment_04_3DGS/data/chair/official_3dgs', images='images', depths='', resolution=8, white_background=False, train_test_exp=False, data_device='cuda', eval=True)
